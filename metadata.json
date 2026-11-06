@@ -1,0 +1,6 @@
+{
+  "name": "مسجد من - دارالقرآن کنخ",
+  "description": "سامانه هوشمند ثبت حضور، امتیازدهی و تشویق نوجوانان به مساجد و فعالیت‌های قرآنی روستای کنخ با کارکرد آفلاین و تقویم شمسی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
