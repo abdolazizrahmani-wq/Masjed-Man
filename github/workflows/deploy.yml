@@ -23,9 +23,7 @@ jobs:
         with:
           node-version: 22
       - run: npm install
-      - run: npm run build
-        env:
-          VITE_BASE: /${{ github.event.repository.name }}/
+        - run: npm run build -- --base=/Masjed-Man/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
